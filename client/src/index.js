@@ -27,6 +27,11 @@ class Root extends Component {
 
 ReactDOM.render(<Root/>, document.getElementById('root'));
 
+// This was there for Development Purposes to prevent refresh and allow the logs to the console to remain.
+/*if (module.hot) {
+  module.hot.accept()
+}*/
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
